@@ -1,12 +1,11 @@
 import "./App.scss";
 import Weather from "./components/weather/Weather";
-
-function App() {
+const App = () => {
   return (
     <div>
-      <Weather />
+      <Weather/>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
